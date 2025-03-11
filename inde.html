@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sticky-nav">
+        <div class="nav-left">
+            <img src="assets/logo.png" alt="spotify logo" width="32px" height="32px">
+            <div class="nav-home">
+                <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                <input type="text" name="search" id="main-serch" placeholder="What do you want to play?">
+                <i class="fa-solid fa-folder" id="search-folder"></i>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <div class="support">
+                <a>Premium</a>
+                <a>Support</a>
+                <a>Download</a>
+            </div>
+            <div class="login-area">
+                <div class="install">
+                    <i class="fa-regular fa-circle-down"></i>
+                    <a href="#">installApp</a>
+                </div>
+                <div class="login">
+                    <a href="#">Sign up</a>
+                    <button>Log in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-sec">
+        <div class="side-bar">
+            <div class="sideBarHead">
+                <img src="assets/library_icon.png" alt="library icon">
+                <h2>Your Library</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="playListContainer">
+                <div class="playlistCard">
+                    <h2>Create your first playlist</h2>
+                    <p>It's easy we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="playlistCard">
+                    <h2>Lets's find some podcasts to follow</h2>
+                    <p>we'll keep you updated on new episodes</p>
+                    <button class="badge">Browse poscasts</button>
+                </div>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li>Legal</li>
+                    <li>Safety&Privacy Center</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookies</li>
+                    <li>About Ads</li>
+                    <li>Accesibility</li>
+                </ul>
+                <a>Cookies</a>
+                <div class="language">
+                    <i class="fa-solid fa-globe"></i>
+                    <a href="">English</a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="mainRow">
+                <div class="mainRowHeader">
+                    <h2>Popular artists</h2>
+                    <a href="">Show all</a>
+                </div>
+                <div class="albumContainer">
+                    <div class="albumCard">
+                        <img src="assets/card1img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card2img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Arijit Singh</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card3img.jpeg" alt="" width="155px" height="155px">
+                        <h2>A.R. Rahman</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card5img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Sachin-Jigar</h2>
+                        <p>Artist</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="mainRow">
+                <div class="mainRowHeader">
+                    <h2>Featured Charts</h2>
+                    <a href="">Show all</a>
+                </div>
+                <div class="albumContainer">
+                    <div class="albumCard">
+                        <img src="assets/card1img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card2img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Arijit Singh</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card3img.jpeg" alt="" width="155px" height="155px">
+                        <h2>A.R. Rahman</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card5img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Sachin-Jigar</h2>
+                        <p>Artist</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="mainRow">
+                <div class="mainRowHeader">
+                    <h2>Popular albums and singles</h2>
+                    <a href="">Show all</a>
+                </div>
+                <div class="albumContainer">
+                    <div class="albumCard">
+                        <img src="assets/card1img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card2img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Arijit Singh</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card3img.jpeg" alt="" width="155px" height="155px">
+                        <h2>A.R. Rahman</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card5img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Sachin-Jigar</h2>
+                        <p>Artist</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="mainRow">
+                <div class="mainRowHeader">
+                    <h2>Popular radio</h2>
+                    <a href="">Show all</a>
+                </div>
+                <div class="albumContainer">
+                    <div class="albumCard">
+                        <img src="assets/card1img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Pritam</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card2img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Arijit Singh</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card3img.jpeg" alt="" width="155px" height="155px">
+                        <h2>A.R. Rahman</h2>
+                        <p>Artist</p>
+                    </div>
+                    <div class="albumCard">
+                        <img src="assets/card5img.jpeg" alt="" width="155px" height="155px">
+                        <h2>Sachin-Jigar</h2>
+                        <p>Artist</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="playback-player">
+        
+    </div>
+</body>
+</html>
